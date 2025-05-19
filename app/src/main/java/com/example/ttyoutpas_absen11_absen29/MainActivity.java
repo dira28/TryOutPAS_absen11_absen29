@@ -35,7 +35,9 @@ public class MainActivity extends AppCompatActivity {
             int id = item.getItemId();
             if (id == R.id.nav_home) {
                 fragment = new HomeFragment();
-            } else if (id == R.id.nav_country) {
+            } else if (id == R.id.nav_match) {
+                fragment = new MatchFragment();
+            }else if (id == R.id.nav_country) {
                 fragment = new CountryFragment();
             }
             return loadFragment(fragment);

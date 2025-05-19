@@ -23,7 +23,7 @@ import retrofit2.Call;
 import retrofit2.Callback;
 import retrofit2.Response;
 
-public class CountryFragment extends Fragment {
+public class  CountryFragment extends Fragment {
 
     private RecyclerView recyclerView;
     private ProgressBar progressBar;
